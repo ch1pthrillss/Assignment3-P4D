@@ -1,0 +1,111 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #239fe8;
+    background-position: center;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 50px;
+    width: 100%;
+    position: relative;
+}
+h2,h4{
+    text-align:center;
+}
+
+.container {
+    padding: 2rem;
+}
+
+
+.niconne {
+    font-family: 'Niconne', cursive;
+    font-size: xx-large;
+    color: navy;
+}
+p {
+    font-family: 'DM Sans', sans-serif;
+    text-align:center;
+    position:relative;
+    color:white;
+}
+
+
+.toggle-button {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    background-color: #239fe8; /* 蓝色背景 */
+    color: white; /* 白色文字 */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* 添加平滑过渡效果 */
+    margin-bottom: 10px;
+    border: none; /* 移除边框 */
+    border-radius: 5px; /* 圆角 */
+    padding: 10px 20px; /* 按钮内边距 */
+}
+
+    .toggle-button:hover {
+        color: #f34324;
+        border-color: #f34324; /* 鼠标悬停时改变文字颜色和边框颜色 */
+    }
+
+/* CSS样式表中的样式 */
+.s2, .s3, .s4, .s5 {
+    display: inline-block;
+    vertical-align: top;
+
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
+.s1{
+    background-image:url(Covid19.jpg);
+    background-position:center;
+
+}
+
+
+    .toggle-button:hover {
+        color: #f34324;
+        border-color: #f34324; /* 鼠标悬停时改变文字颜色和边框颜色 */
+    }
+
+/* 其他样式保持不变 */
+.s1 {
+    background-image: url(Covid19.jpg);
+    background-position: center;
+    /* 添加样式以及其他部分的样式 */
+}
+
+.s2, .s3, .s4, .s5 {
+    display: none; /* 初始状态下将这些部分隐藏 */
+}
+
+.s2{
+    background-image:url(vaccine.jpg);
+    background-position:center;
+}
+.s3{
+    background-image:url(pic1.jpg);
+    background-position:center;
+}
+.s4{
+    background-image:url(vaccine1.jpg);
+    background-position:center;
+}
+
+.s5 {
+    border: 3px dashed black;
+}
+.s5 > p {
+    color: #239fe8;
+}
